@@ -8,7 +8,6 @@ import pandas as pd
 from sklearn.feature_selection import VarianceThreshold
 from sklearn.feature_selection import f_classif
 import Create_dataset
-import matplotlib.pyplot as plt
 pd.options.mode.use_inf_as_na = True
 
 dataset = Create_dataset.create('2012-11-07', '2020-10-28')
